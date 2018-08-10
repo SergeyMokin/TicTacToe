@@ -6,7 +6,8 @@ let clients = [];
 let rooms = [];
 
 let server = http.createServer(function (request, response) {
-    response.send("Application start...");
+    response.setHeader('Access-Control-Allow-Headers', request.headers.host);
+    response.end("The application is running...")
 });
 
 server.listen(WebSocketServerPort, function () {
