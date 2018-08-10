@@ -1,0 +1,112 @@
+.main-field-container
+{
+    position: absolute;
+    top:25%;
+    bottom: 25%;
+    left: 25%;
+    right: 25%;
+    width: 50%;
+    height: 50%;
+}
+
+tbody, td, tr
+{
+    margin: 0;
+    padding: 0;
+    font-size: 200%;
+    width: 33%;
+    height: 33%;
+}
+
+.button-def
+{
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.button-def:hover
+{
+    background: none !important;
+}
+
+.cell-main-container
+{
+    height: 100%;
+    width: 100%;
+}
+
+.cell-main-container:hover
+{
+    background: rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.table-main-container
+{
+    width: 100%;
+    height: 100%;
+}
+
+.td-center-main-container
+{
+    border-bottom: solid 1px;
+    border-right: solid 1px;
+}
+
+.td-right-main-container
+{
+    border-bottom: solid 1px;
+}
+
+.td-bottom-main-container
+{
+    border-right: solid 1px;
+}
+
+.players-container
+{
+    position: fixed;
+    width: 22%;
+    height: 17%;
+    overflow-y: auto;
+    left: 2%;
+    top: 2%;
+    border: 1px solid gray;
+}
+
+.players-container div:hover
+{
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.chat-container
+{
+    position: fixed;
+    width: 22%;
+    height: 17%;
+    right: 2%;
+    top: 2%;
+    overflow-y: auto;
+    overflow-x: auto;
+    border: 1px solid gray;
+}
+
+.chat-container p
+{
+    margin: 0;
+    padding: 0;
+}
+
+.chat-input
+{
+    position: fixed;
+    width: 22%;
+    height: 5%;
+    top: 20%;
+    right: 2%;
+}
